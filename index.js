@@ -3,7 +3,7 @@ function dwarfRollCall(dwarves) {
   for(let i = 0; i < dwarves.length; i++) {
     newarr.push(`${i + 1}. ${dwarves[i]} `);
   }
-  return `${newarr.join("")}`
+  return newarr.join("")
 }
 
 function summonCaptainPlanet(planeteerCalls){
